@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+  <!-- Import CSS Files in Head Section -->
+  <head>
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+
+        <!-- Add Pie Chart -->
+          <div class="col-md-2">
+            <span class="chart" data-percent="90">
+              <span class="percent">90</span>
+              <h3>UI Design</h3>
+              <canvas height="300" width="300" style="height: 150px; width: 150px;"></canvas>
+            </span>
+          </div>
+
+          <!-- Another Pie Chart -->
+          <div class="col-md-2">
+            <span class="chart" data-percent="90">
+              <span class="percent">70</span>
+              <h3>Photography</h3>
+              <canvas height="300" width="300" style="height: 150px; width: 150px;"></canvas>
+            </span>
+          </div>
+
+        </div>  <!-- close row        -->
+      </div>    <!-- close container  -->
+
+    <!-- Load JS files at the end (in this case, before ending body section) -->
+    <script src="./js/jquery-1.10.2.min.js"></script>
+    <script src="./js/jquery.easypiechart.min.js"></script>
+    <script src="./js/jquery.magnific-popup.min.js"></script>
+    <script src="./js/waypoints.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
