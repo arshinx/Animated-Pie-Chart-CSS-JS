@@ -7,15 +7,14 @@ Add a element to your site to represent chart and add the **data-percent** attri
 `<div class="chart" data-percent="73">73%</div>`
 
 Finally you have to initialize the plugin with your desired configuration:
-`
-<script type="text/javascript">
+
+`<script type="text/javascript">
 $(function() {
     $('.chart').easyPieChart({
         //your configuration goes here
     });
 });
-</script>
-`
+</script>`
 
 ## Configure Charts
 
@@ -35,6 +34,13 @@ __animate__	`false`	Time in milliseconds for a eased animation of the bar growin
 __onStart__	`$.noop` Callback function that is called at the start of any animation (only if animate is not false).
 __onStop__	`$.noop`	Callback function that is called at the end of any animation (only if animate is not false).
 __onStep__	`$.noop`	Callback function that is called during animations providing the current value (the context is the plugin, so you can access the DOM element via this.$el).
+
+
+
+
+
+
+
 
 Credits:
 Rendo - Creator of Easy Pie Charts: visit http://rendro.github.io/easy-pie-chart/ for detailed instructions.
